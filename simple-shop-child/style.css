@@ -1,0 +1,98 @@
+/*
+ Theme Name:   My Child Theme
+ Template:     simple-shop
+*/
+
+/*@import url("../simple-shop/style.css");*/
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Engagement|BenchNine);
+
+#title a {
+    color: #7fffd4;
+    text-decoration: none;
+    font-family: 'Engagement';
+    font-weight: normal;
+    font-size: 140%;
+    text-shadow: 3px 3px 3px #000;
+}
+
+body.custom-background {
+    background: whitesmoke !important;
+}
+
+#slogan {
+    color: #404049;
+    font-family: 'BenchNine';
+}
+
+nav.top-nav ul:first-child li a {
+    padding: 8px 14px;
+    color: #404049;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'BenchNine';
+}
+
+nav.primary-nav-container ul:first-of-type li a {
+    display: block;
+    margin: 0;
+    padding: 15px 25px 15px;
+    color: #404049;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+nav.primary-nav-container ul:first-of-type li a:hover {
+    background: #404049;
+}
+
+.content-container .block-title, .content-container .page-title, .block-title {
+    color: #404049;
+}
+
+.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+    color: #404049;
+}
+
+.woocommerce ul.products li.product .product-info, .woocommerce-page ul.products li.product .product-info {
+    background-color: #404049;
+}
+
+.fancy:before, .fancy:after {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    border-top: 1px solid #404049;
+    border-bottom: 1px solid #404049;
+    content: "";
+    margin-top: 8px;
+}
+
+.page-content h1.page-title {
+    color: #404049;
+    font-family: 'Engagement';
+}
+
+.woocommerce .product h3, .woocommerce #content .product h3, .woocommerce-page .product h3, .woocommerce-page #content .product h3 {
+    color: whitesmoke;
+}
+
+.page-content {
+    background-color: whitesmoke;
+}
+
+footer#footer {
+    background: #404049;
+}
+
+section.copyright {
+    color: whitesmoke;
+}
